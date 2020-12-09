@@ -17,7 +17,7 @@ public class Ejemplo02 {
         
         System.out.println(cadena.length()); // 7
         
-        // for (int i = 0; i < 7; i++) { // 0 , 1 , 2, 3, 4 , 5, 6
+          //for (int i = 0; i < 7; i++) { // 0 , 1 , 2, 3, 4 , 5, 6
         for (int i = 0; i < cadena.length(); i++) {
             valor = cadena.charAt(i); // Ecuador.charAt(0) >> E 
                                       // Ecuador.charAt(1) >> c
