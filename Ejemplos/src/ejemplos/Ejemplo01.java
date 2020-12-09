@@ -25,10 +25,16 @@ public class Ejemplo01 {
             if ( (i==101) || (i==105) ) { // 101==101 || 101==105 
                 System.out.printf("%s |%d|\n", (char)i, i);
             }
+             if ((char)i=='a') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
+             if ((char)i=='o') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            } 
             
-            // if ((char)i=='e') {
-            //    System.out.printf("%s |%d|\n", (char)i, i);
-            // }
+            if ((char)i=='u') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
             
         }
         
