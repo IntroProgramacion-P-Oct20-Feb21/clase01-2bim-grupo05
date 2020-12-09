@@ -16,6 +16,10 @@ public class Pregunta03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         String suma = "*";
+            for( int i = 1; i <= 10; i++){
+                System.out.printf("%s\n", suma);
+                suma = suma + "*";
+            }
+        }
     }
-    
-}

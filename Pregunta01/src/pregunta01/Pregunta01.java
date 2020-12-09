@@ -16,6 +16,36 @@ public class Pregunta01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        // TODO code application logic here
+        // char caracter = 'A';
+        // int c = caracter;
+        // System.out.println((int)caracter);
+        
+        for (int i = 97; i <= 122; i++) {
+                                          //    V     || F    >>> V
+            if ( (i==101) || (i==105) ) { // 101==101 || 101==105 
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
+             if ((char)i=='a') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
+             if ((char)i=='i') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            } 
+            
+            if ((char)i=='u') {
+                System.out.printf("%s |%d|\n", (char)i, i);
+            }
+            
+        }
+        
+        /*
+        for (int i = 65; i <= 90; i++) {
+             System.out.printf("%s |%d|\n", (char)i, i);
+        }*/
+        
+        
+        
+        }
     }
-    
-}
+   

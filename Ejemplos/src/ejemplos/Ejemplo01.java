@@ -28,7 +28,7 @@ public class Ejemplo01 {
              if ((char)i=='a') {
                 System.out.printf("%s |%d|\n", (char)i, i);
             }
-             if ((char)i=='o') {
+             if ((char)i=='i') {
                 System.out.printf("%s |%d|\n", (char)i, i);
             } 
             
